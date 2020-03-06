@@ -1,0 +1,4 @@
+zeď: červená
+jídlo: zelená
+poklad: žlutá
+bomba: černá
