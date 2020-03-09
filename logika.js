@@ -1,5 +1,5 @@
 let width = 5;
-let height = 5;
+let height = 10;
 let size = 80;
 let font = 40;
 let energy = 20;
@@ -7,6 +7,11 @@ let ghost;
 var policka = [
   ["", ["zed", 10], "", ["zed", 15], ""],
   ["poklad", "", ["jidlo", 15], "", ""],
+  [["bomba", 7], "", "", "", ""],
+  ["", ["bomba", 13], "", ["jidlo", 15], ""],
+  ["", "", "", "", ""]]
+  ["", ["zed", 10], "", ["zed", 15], ""],
+  ["", "", ["jidlo", 25], "", ""],
   [["bomba", 7], "", "", "", ""],
   ["", ["bomba", 13], "", ["jidlo", 15], ""],
   ["", "", "", "", ""]];
